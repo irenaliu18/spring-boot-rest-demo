@@ -14,6 +14,14 @@ public class RecipeStep {
     @Column(name="COMPLETED")
     private boolean completed;
 
+    public RecipeStep() {
+    }
+
+    public RecipeStep(String step, boolean completed) {
+        this.step = step;
+        this.completed = completed;
+    }
+
     @Override
     public String toString() {
         return "RecipeStep{" +
