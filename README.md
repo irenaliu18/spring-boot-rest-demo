@@ -1,2 +1,1 @@
-# spring-boot-rest-demo
-Spring boot rest api demo from class on 2/7/24
+# spring-boot-rest-demo template
