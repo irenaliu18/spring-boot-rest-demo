@@ -1,0 +1,13 @@
+schema {
+    query: Query
+}
+
+type Query {
+    todoItems: [TodoItem]
+}
+
+type TodoItem {
+    id: Id
+    value: String
+    completed: Boolean
+}
